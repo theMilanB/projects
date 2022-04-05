@@ -1,6 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .navbar {
   overflow: hidden;
   background-color: green;
+
 }
 
 .navbar a {
@@ -29,14 +35,14 @@
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
+  background-color: yellowgreen;
 }
 
 .subnav-content {
   display: none;
   position: absolute;
   left: 0;
-  background-color: red;
+  background-color: green;
   width: 100%;
   z-index: 1;
 }
@@ -48,7 +54,7 @@
 }
 
 .subnav-content a:hover {
-  background-color: #eee;
+  background-color: yellowgreen;
   color: black;
 }
 
